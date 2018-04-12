@@ -9,16 +9,17 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="layout(getLeft() + offsetX\n, getTop() + offsetY\n, getRight() + offsetX\n, getBottom() + offsetY);\n!"
 />
 
 
-    <kc.com.scrollerview.widget.View_2
+    <kc.com.scrollerview.widget.View_4
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@color/colorAccent"
-        ></kc.com.scrollerview.widget.View_2>
+        ></kc.com.scrollerview.widget.View_4>
 
 </LinearLayout>
